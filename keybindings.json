@@ -1,0 +1,8 @@
+// Place your key bindings in this file to override the defaults
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "ctrl+i",
+        "command": "composerMode.agent"
+    }
+]

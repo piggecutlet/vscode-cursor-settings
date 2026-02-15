@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.hexeditor",
+    "MS-CEINTL.vscode-language-pack-ja",
+    "esbenp.prettier-vscode",
+    "mechatroner.rainbow-csv"
+  ]
+}
