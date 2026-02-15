@@ -18,14 +18,14 @@
   // フォーマット
   "editor.codeActionsOnSave": {
     "source.addMissingImports": "explicit",
-    "source.organizeImports": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[csharp]": {
     // Cursor版 anysphere.csharp
     "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.formatOnType": false,
+    "editor.formatOnType": false
   },
 
   "eslint.enable": true,
@@ -44,14 +44,14 @@
   "git.blame.editorDecoration.enabled": true,
   // .gitディレクトリを表示
   "files.exclude": {
-    "**/.git": false,
+    "**/.git": false
   },
 
   // Hex Editor
   "workbench.editorAssociations": {
     "*.bytes": "hexEditor.hexedit",
     "*.dat": "hexEditor.hexedit",
-    "*.so": "hexEditor.hexedit",
+    "*.so": "hexEditor.hexedit"
   },
 
   // VSCodeに寄せる
@@ -217,14 +217,14 @@
           "meta.structure.array.json.comments",
           "meta.structure.dictionary.value.json.comments",
           "meta.structure.dictionary.json.comments",
-          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.value.json.comments"
         ],
         "settings": {
-          "fontStyle": "",
-        },
-      },
-    ],
-  },
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
 
   // 新規
 }
