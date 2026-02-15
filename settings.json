@@ -16,6 +16,10 @@
   "extensions.autoUpdate": false,
 
   // フォーマット
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[csharp]": {
@@ -23,6 +27,8 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnType": false
   },
+
+  "eslint.enable": true,
 
   // VSCode
   "chat.disableAIFeatures": true,
