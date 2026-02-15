@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+  {
+    // terminal.integrated.copyOnSelection を有効にする
+    "key": "cmd+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u0003" },
+    "when": "terminalFocus"
+  }
+]
