@@ -96,7 +96,7 @@
 
   // フォント
   // 等幅フォント UDEVGothicJPDOC-Regular.ttf を追加
-  "editor.fontFamily": "'UDEV Gothic JPDOC Regular', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'UDEV Gothic JPDOC', Consolas, 'Courier New', monospace",
 
   // 斜体をなくす
   "editor.tokenColorCustomizations": {
