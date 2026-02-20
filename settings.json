@@ -230,7 +230,23 @@
           "meta.block.tsx",
           "meta.arrow.tsx",
           "meta.var.expr.tsx",
-          "source.tsx"
+          "source.tsx",
+          "keyword.operator.assignment.tsx",
+          "meta.tag.attributes.tsx",
+          "meta.tag.tsx",
+          "meta.jsx.children.tsx",
+          "meta.tag.tsx",
+          "meta.jsx.children.tsx",
+          "meta.tag.tsx",
+          "meta.jsx.children.tsx",
+          "meta.tag.tsx",
+          "meta.jsx.children.tsx",
+          "meta.tag.tsx",
+          "meta.block.tsx",
+          "meta.arrow.tsx",
+          "meta.var.expr.tsx",
+          "source.tsx",
+          "entity.other.attribute-name.tsx"
         ],
         "settings": {
           "fontStyle": ""
@@ -240,4 +256,4 @@
   }
 
   // 新規
-}
+ }
