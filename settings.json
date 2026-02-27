@@ -51,6 +51,7 @@
   "workbench.editorAssociations": {
     "*.bytes": "hexEditor.hexedit",
     "*.dat": "hexEditor.hexedit",
+    "*.plist": "hexEditor.hexedit",
     "*.so": "hexEditor.hexedit"
   },
 
@@ -246,7 +247,10 @@
           "meta.arrow.tsx",
           "meta.var.expr.tsx",
           "source.tsx",
-          "entity.other.attribute-name.tsx"
+          "entity.other.attribute-name.tsx",
+          "punctuation.definition.comment.tsx",
+          "comment.line.double-slash.tsx",
+          "source.tsx"
         ],
         "settings": {
           "fontStyle": ""
@@ -256,4 +260,4 @@
   }
 
   // 新規
- }
+}
