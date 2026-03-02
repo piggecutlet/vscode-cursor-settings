@@ -252,7 +252,10 @@
           "entity.other.attribute-name.tsx",
           "punctuation.definition.comment.tsx",
           "comment.line.double-slash.tsx",
-          "source.tsx"
+          "source.tsx",
+          "punctuation.definition.comment.js",
+          "comment.line.double-slash.js",
+          "source.js"
         ],
         "settings": {
           "fontStyle": ""
