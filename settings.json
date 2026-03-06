@@ -8,7 +8,7 @@
   // 自動更新
   // 本体
   "update.enableWindowsBackgroundUpdates": false,
-  // 勝手に "update.mode": "none", が消えることがある
+  // 勝手に "update\.mode": "none", が消えることがある
   "update.mode": "none",
   "update.showReleaseNotes": false,
   // 拡張機能
@@ -24,7 +24,7 @@
   "editor.formatOnSave": true,
   "[csharp]": {
     // Cursor版 anysphere.csharp
-    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    // "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnType": false
   },
 
@@ -103,6 +103,7 @@
   "editor.fontFamily": "'UDEV Gothic JPDOC', Consolas, 'Courier New', monospace",
 
   "explorer.compactFolders": false,
+  "editor.minimap.enabled": true,
 
   // 斜体をなくす
   "editor.tokenColorCustomizations": {
