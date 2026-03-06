@@ -24,7 +24,7 @@
   "editor.formatOnSave": true,
   "[csharp]": {
     // Cursor版 anysphere.csharp
-    // "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnType": false
   },
 
