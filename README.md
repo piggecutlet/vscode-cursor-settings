@@ -16,7 +16,7 @@ ms-vscode.hexeditor
 ```
 
 ```
-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-dotnettools.csharp --install-extension ms-dotnettools.vscode-dotnet-runtime --install-extension ms-vscode.hexeditor
+code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime --install-extension ms-vscode.hexeditor
 ```
 
 - settings.json 共有
