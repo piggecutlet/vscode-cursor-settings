@@ -2,14 +2,10 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
   {
-    "key": "cmd+c",
-    "command": "workbench.action.terminal.copySelection",
-    "when": "terminalFocus && terminalHasSelection",
-  },
-  {
+    // terminal.integrated.copyOnSelection を有効にする
     "key": "cmd+c",
     "command": "workbench.action.terminal.sendSequence",
     "args": { "text": "\u0003" },
-    "when": "terminalFocus && !terminalHasSelection",
-  },
+    "when": "terminalFocus"
+  }
 ]
