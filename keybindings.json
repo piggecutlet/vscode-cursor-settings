@@ -1,8 +1,15 @@
 // Place your key bindings in this file to override the defaults
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
-    {
-        "key": "ctrl+i",
-        "command": "composerMode.agent"
-    }
+  {
+    "key": "cmd+c",
+    "command": "workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalHasSelection",
+  },
+  {
+    "key": "cmd+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u0003" },
+    "when": "terminalFocus && !terminalHasSelection",
+  },
 ]
