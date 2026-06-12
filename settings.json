@@ -118,7 +118,13 @@
 
   "json.schemaDownload.enable": true,
 
-  "workbench.tree.indent": 10,
+  // デフォルト: 8
+  "workbench.tree.indent": 16,
+  // デフォルト: 12
+  "terminal.integrated.fontSize": 16,
+
+  // Mac ターミナルコピー用
+  "terminal.integrated.copyOnSelection": true,
 
   // 斜体を消す
   "editor.tokenColorCustomizations": {
@@ -135,6 +141,7 @@
           "comment.line.double-slash.ts",
           "comment.line.double-slash.tsx",
           "comment.line.double-slash.tsx",
+          "comment.line.number-sign.shell",
           "comment.line.number-sign.yaml",
           "comment.line",
           "comment",
@@ -215,6 +222,7 @@
           "meta.preprocessor",
           "meta.return-type",
           "meta.selector",
+          "meta.shebang.shell",
           "meta.stream.yaml",
           "meta.structure.array.json.comments",
           "meta.structure.array.json.comments",
@@ -238,6 +246,7 @@
           "meta",
           "punctuation.definition.block.tag.jsdoc",
           "punctuation.definition.comment.js",
+          "punctuation.definition.comment.shebang.shell",
           "punctuation.definition.comment.ts",
           "punctuation.definition.comment.tsx",
           "punctuation.definition.comment.yaml",
@@ -247,6 +256,7 @@
           "punctuation.separator",
           "punctuation.terminator",
           "source.js",
+          "source.shell",
           "source.ts",
           "source.ts",
           "source.ts",
@@ -292,5 +302,5 @@
         },
       },
     ],
-  }, // 以下は新規
+  }, // 以下新規
 }
