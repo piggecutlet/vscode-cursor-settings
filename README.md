@@ -1,3 +1,15 @@
+- Cursor テーマ (斜体 無効)
+
+```
+cd "%LOCALAPPDATA%\Programs\cursor\resources\app\extensions"
+git clone git@github.com:piggecutlet/cursor-themes-no-italic.git themes-cursor-no-italic
+```
+
+```
+cd "~/Library/Application Support/Cursor/extensions"
+git clone git@github.com:piggecutlet/cursor-themes-no-italic.git themes-cursor-no-italic
+```
+
 - 拡張機能 共有
 
 ```
