@@ -1,10 +1,18 @@
 {
   "recommendations": [
-    "ms-dotnettools.csharp",
+    "anthropic.claude-code",
     "dbaeumer.vscode-eslint",
-    "ms-vscode.hexeditor",
-    "MS-CEINTL.vscode-language-pack-ja",
     "esbenp.prettier-vscode",
-    "mechatroner.rainbow-csv"
+    "jishii1204.markdown-live-editor",
+    "mechatroner.rainbow-csv",
+    "MS-CEINTL.vscode-language-pack-ja",
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "ms-vscode.hexeditor",
+    "openai.chatgpt",
+    "undefined_publisher.cursor-themes-no-italic",
+    "webpro.vscode-knip",
+    "yoavbls.pretty-ts-errors"
   ]
 }
+
