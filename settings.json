@@ -86,7 +86,6 @@
   // コマンドパレット
   "window.commandCenter": true,
   "extensions.ignoreRecommendations": true,
-  "git.openRepositoryInParentFolders": "never",
 
   // 改行で行を変更
   "markdown.preview.breaks": true,
@@ -118,8 +117,7 @@
   },
 
   // ファイル移動でインポート自動調整
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
 
   "json.schemaDownload.enable": true,
 
@@ -131,7 +129,7 @@
   // Mac ターミナルコピー用
   "terminal.integrated.copyOnSelection": true,
   "workbench.editor.titleScrollbarSizing": "large",
-
-  // その他
-  "editor.largeFileOptimizations": false
+  "cursor.composer.shouldChimeAfterChatFinishes": true, // 音
+  "git.autoRepositoryDetection": "subFolders",
+  "git.openRepositoryInParentFolders": "always"
 }
