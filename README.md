@@ -25,13 +25,12 @@ ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
 ms-vscode.hexeditor
 openai.chatgpt
-undefined_publisher.cursor-themes-no-italic
 webpro.vscode-knip
 yoavbls.pretty-ts-errors
 ```
 
 ```
-code --install-extension anthropic.claude-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension jishii1204.markdown-live-editor --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime --install-extension ms-vscode.hexeditor --install-extension openai.chatgpt --install-extension undefined_publisher.cursor-themes-no-italic --install-extension webpro.vscode-knip --install-extension yoavbls.pretty-ts-errors
+code --install-extension anthropic.claude-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension jishii1204.markdown-live-editor --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime --install-extension ms-vscode.hexeditor --install-extension openai.chatgpt  --install-extension webpro.vscode-knip --install-extension yoavbls.pretty-ts-errors
 ```
 
 ## keybindings.json
