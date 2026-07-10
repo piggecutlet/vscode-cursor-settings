@@ -104,8 +104,8 @@
   "editor.guides.bracketPairs": true,
 
   // フォント
-  // 等幅フォント UDEVGothicJPDOC-Regular.ttf を追加
-  "editor.fontFamily": "'UDEV Gothic JPDOC', Consolas, 'Courier New', monospace",
+  // 等幅フォント UDEVGothicJPDOC-Regular.ttf と UDEVGothicNF-Regular.ttf を追加
+  "editor.fontFamily": "'UDEV Gothic JPDOC','UDEV Gothic NF', Consolas, 'Courier New', monospace",
 
   "explorer.compactFolders": false,
 
