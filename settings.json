@@ -80,7 +80,9 @@
   },
 
   "files.associations": {
-    "*.smali": "shellscript"
+    "*.smali": "shellscript",
+    ".prettierrc.json5": "jsonc",
+    "knip.jsonc": "jsonc"
   },
 
   // VSCodeに寄せる
