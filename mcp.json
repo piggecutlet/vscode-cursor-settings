@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "github": {
+      // https://github.com/github/github-mcp-server
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${env:GITHUB_MCP_TOKEN}"
+      }
+    },
+    "ghidra-mcp": {
+      // https://github.com/bethington/ghidra-mcp
+      "command": "python",
+      "args": ["-m", "bridge_mcp_ghidra"]
+    }
+  }
+}

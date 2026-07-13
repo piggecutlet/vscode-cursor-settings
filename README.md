@@ -50,6 +50,12 @@ mklink "%APPDATA%\Cursor\User\keybindings.json" "%USERPROFILE%\main\git\vscode-c
 curl -fLo "$HOME/Library/Application Support/Cursor/User/keybindings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/keybindings.json"
 ```
 
+## mcp.json
+
+```
+mklink "%USERPROFILE%\.cursor\mcp.json" "%USERPROFILE%\main\git\vscode-cursor-settings\mcp.json"
+```
+
 ## settings.json
 
 ※ 管理者権限が必要
