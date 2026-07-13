@@ -37,7 +37,7 @@ code --install-extension anthropic.claude-code --install-extension dbaeumer.vsco
 
 - Windows (Command Prompt)
 
-※ 管理者権限が必要？
+※ 管理者権限が必要
 
 ```
 mklink "%APPDATA%\Code\User\keybindings.json" "%USERPROFILE%\main\git\vscode-cursor-settings\keybindings.json"
