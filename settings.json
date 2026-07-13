@@ -1,45 +1,67 @@
 {
+  // ※ defaultSettings.json 順に並べる
+
   // プライバシー
   "crashReporting.enabled": "off", // Cursor
-  "dotnetAcquisitionExtension.enableTelemetry": false,
-  "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off", // VSCode
+  "telemetry.feedback.enabled": false, // VSCode & Cursor
+  // "telemetry.telemetryLevel": "off" が効くか不明なため明示的に設定
+  "telemetry.editStats.details.enabled": false, // VSCode
+  "telemetry.editStats.enabled": false, // VSCode
+  "telemetry.editStats.showDecorations": false, // VSCode
+  "telemetry.editStats.showStatusBar": false, // VSCode
+
+  "dotnetAcquisitionExtension.enableTelemetry": false,
 
   // 自動更新
-  "update.enableWindowsBackgroundUpdates": false,
-  // 勝手に "update.mode" が消える場合がある
-  "update.mode": "manual",
-  "update.showReleaseNotes": false,
+  "update.enableWindowsBackgroundUpdates": false, // VSCode & Cursor
+  // "update.mode": "none" だと勝手に削除される場合がある
+  "update.mode": "manual", // VSCode & Cursor
+  "update.showReleaseNotes": false, // VSCode & Cursor
+
   // 拡張機能
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false, // VSCode & Cursor
+  "extensions.autoUpdate": false, // VSCode & Cursor
+  // おすすめの拡張機能を非表示
+  "extensions.ignoreRecommendations": true, // VSCode & Cursor
 
   // フォーマット
   "editor.codeActionsOnSave": {
-    "source.addMissingImports": "explicit",
-    "source.organizeImports": "explicit"
+    "source.addMissingImports": "explicit", // VSCode & Cursor
+    // source.removeUnusedImports + source.sortImports
+    "source.organizeImports": "explicit" // VSCode & Cursor
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // VSCode & Cursor
+  "editor.formatOnSave": true, // VSCode & Cursor
   "[csharp]": {
-    // Cursor版 anysphere.csharp
+    // Cursor の anysphere.csharp だとフォーマットが動かない
     // "editor.defaultFormatter": "ms-dotnettools.csharp",
     "editor.formatOnType": false
   },
 
   "eslint.enable": true,
 
-  // VSCode
-  "chat.disableAIFeatures": true,
+  // Copilot 非表示
+  "chat.disableAIFeatures": true, // VSCode
 
   // Cursor
-  // Cursor Tabをmarkdownとplaintextでも有効にする
-  "cursor.cpp.disabledLanguages": [],
-  // 使用量を表示
-  "cursor.composer.usageSummaryDisplay": "always",
-  "cursor.general.emailPrivacyEnabled": true,
+  // Cursor Tab を markdown と plaintext でも有効化
+  "cursor.cpp.disabledLanguages": [], // Cursor
+  "cursor.general.emailPrivacyEnabled": true, // Cursor
+  // チャット完了時に音を鳴らす
+  "cursor.composer.shouldChimeAfterChatFinishes": true, // Cursor
+  "cursor.composer.usageSummaryDisplay": "always", // Cursor
+
+  // フォント
+  // 等幅フォント UDEVGothicJPDOC-Regular.ttf (エディタ用) と UDEVGothicNF-Regular.ttf (ターミナル用) を追加
+  "editor.fontFamily": "'UDEV Gothic JPDOC','UDEV Gothic NF', Consolas, 'Courier New', monospace",
+
+  // 以下は未ソート
 
   // Git
+  "git.autoRepositoryDetection": "subFolders",
+  "git.openRepositoryInParentFolders": "always",
+  "git.ignoreLimitWarning": true,
   // GitLensの代わり
   "git.blame.editorDecoration.enabled": true,
   // .gitディレクトリを表示
@@ -49,8 +71,10 @@
 
   // Hex Editor
   "workbench.editorAssociations": {
+    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
     "*.bytes": "hexEditor.hexedit",
     "*.dat": "hexEditor.hexedit",
+    "*.data": "hexEditor.hexedit",
     "*.plist": "hexEditor.hexedit",
     "*.so": "hexEditor.hexedit"
   },
@@ -85,7 +109,6 @@
   "workbench.startupEditor": "none",
   // コマンドパレット
   "window.commandCenter": true,
-  "extensions.ignoreRecommendations": true,
 
   // 改行で行を変更
   "markdown.preview.breaks": true,
@@ -102,10 +125,6 @@
 
   // 縦線の色を階層ごとに変える
   "editor.guides.bracketPairs": true,
-
-  // フォント
-  // 等幅フォント UDEVGothicJPDOC-Regular.ttf と UDEVGothicNF-Regular.ttf を追加
-  "editor.fontFamily": "'UDEV Gothic JPDOC','UDEV Gothic NF', Consolas, 'Courier New', monospace",
 
   "explorer.compactFolders": false,
 
@@ -128,8 +147,5 @@
 
   // Mac ターミナルコピー用
   "terminal.integrated.copyOnSelection": true,
-  "workbench.editor.titleScrollbarSizing": "large",
-  "cursor.composer.shouldChimeAfterChatFinishes": true, // 音
-  "git.autoRepositoryDetection": "subFolders",
-  "git.openRepositoryInParentFolders": "always"
+  "workbench.editor.titleScrollbarSizing": "large"
 }
