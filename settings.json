@@ -82,7 +82,8 @@
   "files.associations": {
     "*.smali": "shellscript",
     ".prettierrc.json5": "jsonc",
-    "knip.jsonc": "jsonc"
+    "knip.jsonc": "jsonc",
+    "*.kts": "java"
   },
 
   // VSCodeに寄せる
@@ -147,7 +148,8 @@
   // デフォルト: 12
   "terminal.integrated.fontSize": 16,
 
-  // Mac ターミナルコピー用
-  "terminal.integrated.copyOnSelection": true,
-  "workbench.editor.titleScrollbarSizing": "large"
+  "workbench.editor.titleScrollbarSizing": "large",
+
+  // ターミナルコピー用
+  "terminal.integrated.copyOnSelection": true
 }
