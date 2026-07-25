@@ -30,7 +30,8 @@ yoavbls.pretty-ts-errors
 ```
 
 ```
-code --install-extension anthropic.claude-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension jishii1204.markdown-live-editor --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime --install-extension ms-vscode.hexeditor --install-extension openai.chatgpt  --install-extension webpro.vscode-knip --install-extension yoavbls.pretty-ts-errors
+# --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime
+code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension jishii1204.markdown-live-editor --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-vscode.hexeditor --install-extension webpro.vscode-knip --install-extension yoavbls.pretty-ts-errors
 ```
 
 ## keybindings.json
