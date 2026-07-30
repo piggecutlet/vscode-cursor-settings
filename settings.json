@@ -59,8 +59,8 @@
   // 以下は未ソート
 
   // Git
-  "git.autoRepositoryDetection": "subFolders",
-  "git.openRepositoryInParentFolders": "always",
+  // "git.autoRepositoryDetection": "subFolders",
+  // "git.openRepositoryInParentFolders": "always",
   "git.ignoreLimitWarning": true,
   // GitLensの代わり
   "git.blame.editorDecoration.enabled": true,
