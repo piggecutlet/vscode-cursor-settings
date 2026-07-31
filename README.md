@@ -71,3 +71,18 @@ mklink "%APPDATA%\Cursor\User\settings.json" "%USERPROFILE%\main\git\vscode-curs
 ```
 curl -fLo "$HOME/Library/Application Support/Cursor/User/settings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/settings.json"
 ```
+
+## WYSIWYG
+
+- Windows (Command Prompt)
+
+```pwsh
+$file = "$env:LOCALAPPDATA\Programs\cursor\resources\app\out\vs\workbench\workbench.desktop.main.js"
+(Get-Content $file -Raw -Encoding UTF8).Replace('[".cursor",".claude",".codex"]', '[]') | Set-Content $file -Encoding UTF8 -NoNewline
+```
+
+- macOS (bash / zsh)
+
+```zsh
+perl -pi -e 's/\["\.cursor","\.claude","\.codex"\]/[]/g' "/Applications/Cursor.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js"
+```
