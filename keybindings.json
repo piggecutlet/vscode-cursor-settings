@@ -2,10 +2,25 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
   {
-    // terminal.integrated.copyOnSelection を true に設定する必要がある
-    "key": "cmd+c",
+    // Mac 外付けキーボードも ctrl+c でターミナルのコマンドを中断できるようにする
+    // コピーできなくなるため terminal.integrated.copyOnSelection を true する
+    "key": "cmd+c", // デフォルトは ctrl+c だが ctrl と cmd を入れ替えているため cmd+c を指定
     "command": "workbench.action.terminal.sendSequence",
     "args": { "text": "\u0003" },
     "when": "terminalFocus"
+  },
+
+  // Claude Code
+  // Claude Code は選択している内容が自動で共有されるため sendToAgent 不要
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.toggleAuxiliaryBar",
+    "when": "auxiliaryBarVisible"
+  },
+  {
+    "key": "ctrl+l",
+    // claude-vscode.sidebar.open でも可
+    "command": "claudeVSCodeSidebarSecondary.focus",
+    "when": "!auxiliaryBarVisible"
   }
 ]
