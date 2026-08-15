@@ -9,10 +9,9 @@
     "ms-dotnettools.csharp",
     "ms-dotnettools.vscode-dotnet-runtime",
     "ms-vscode.hexeditor",
-    "openai.chatgpt",
+    // "openai.chatgpt",
     "undefined_publisher.cursor-themes-no-italic",
     "webpro.vscode-knip",
     "yoavbls.pretty-ts-errors"
   ]
 }
-

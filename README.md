@@ -15,21 +15,6 @@ code --list-extensions
 ```
 
 ```
-anthropic.claude-code
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-jishii1204.markdown-live-editor
-mechatroner.rainbow-csv
-ms-ceintl.vscode-language-pack-ja
-ms-dotnettools.csharp
-ms-dotnettools.vscode-dotnet-runtime
-ms-vscode.hexeditor
-openai.chatgpt
-webpro.vscode-knip
-yoavbls.pretty-ts-errors
-```
-
-```
 # --install-extension ms-dotnettools.csharp@2.93.22 --install-extension ms-dotnettools.vscode-dotnet-runtime
 code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension jishii1204.markdown-live-editor --install-extension mechatroner.rainbow-csv --install-extension ms-ceintl.vscode-language-pack-ja --install-extension ms-vscode.hexeditor --install-extension webpro.vscode-knip --install-extension yoavbls.pretty-ts-errors
 ```
