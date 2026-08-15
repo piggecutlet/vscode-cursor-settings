@@ -21,7 +21,7 @@
 
   // 拡張機能
   "extensions.autoCheckUpdates": false, // VSCode & Cursor
-  "extensions.autoUpdate": false, // VSCode & Cursor
+  "extensions.autoUpdate": "off", // VSCode & Cursor
   // おすすめの拡張機能を非表示
   "extensions.ignoreRecommendations": true, // VSCode & Cursor
 
@@ -157,5 +157,9 @@
   // Claude
   "claudeCode.focusView": true,
 
-  "files.autoSave": "off" // 以下新規
+  // 新デザインのモーダルで開くのを防ぐ
+  "workbench.editor.useModal": "off",
+
+  // 以下新規
+  "files.autoSave": "off"
 }
