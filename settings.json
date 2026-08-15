@@ -84,7 +84,8 @@
     ".prettierrc.json5": "jsonc",
     "knip.jsonc": "jsonc",
     ".gitmessage.txt": "git-commit",
-    "*.kts": "java"
+    "*.kts": "java",
+    "*.ghostty": "shell"
   },
 
   // VSCodeに寄せる
@@ -152,5 +153,9 @@
   "workbench.editor.titleScrollbarSizing": "large",
 
   // ターミナルコピー用
-  "terminal.integrated.copyOnSelection": true
+  "terminal.integrated.copyOnSelection": true,
+  // Claude
+  "claudeCode.focusView": true,
+
+  "files.autoSave": "off" // 以下新規
 }
