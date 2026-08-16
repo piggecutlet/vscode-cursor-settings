@@ -1,17 +1,11 @@
 {
-  // ※ defaultSettings.json 順に並べる
+  // defaultSettings.json 順
 
-  // Ctrl + Shift + P → Configure Display Language
+  // 日本語: CTRL + SHIFT + P → Configure Display Language
 
   // プライバシー
-  "crashReporting.enabled": "off", // Cursor
   "telemetry.telemetryLevel": "off", // VSCode
   "telemetry.feedback.enabled": false, // VSCode & Cursor
-  // "telemetry.telemetryLevel": "off" が効くか不明なため明示的に設定
-  "telemetry.editStats.details.enabled": false, // VSCode
-  "telemetry.editStats.enabled": false, // VSCode
-  "telemetry.editStats.showDecorations": false, // VSCode
-  "telemetry.editStats.showStatusBar": false, // VSCode
 
   "dotnetAcquisitionExtension.enableTelemetry": false,
 
@@ -45,14 +39,6 @@
 
   // Copilot 非表示
   "chat.disableAIFeatures": true, // VSCode
-
-  // Cursor
-  // Cursor Tab を markdown と plaintext でも有効化
-  "cursor.cpp.disabledLanguages": [], // Cursor
-  "cursor.general.emailPrivacyEnabled": true, // Cursor
-  // チャット完了時に音を鳴らす
-  "cursor.composer.shouldChimeAfterChatFinishes": true, // Cursor
-  "cursor.composer.usageSummaryDisplay": "always", // Cursor
 
   // フォント
   // 等幅フォント UDEVGothicJPDOC-Regular.ttf (エディタ用) と UDEVGothicNF-Regular.ttf (ターミナル用) を追加
@@ -111,8 +97,7 @@
 
   // 制限モード
   "security.workspace.trust.enabled": false,
-  // アクティビティバー 垂直
-  "workbench.activityBar.orientation": "vertical", // Cursor
+
   "workbench.startupEditor": "none",
   // コマンドパレット
   "window.commandCenter": true,
@@ -156,11 +141,23 @@
 
   // ターミナルコピー用
   "terminal.integrated.copyOnSelection": true,
-  // Claude
-  "claudeCode.focusView": true,
 
   // 新デザインのモーダルで開くのを防ぐ
   "workbench.editor.useModal": "off",
+
+  // Claude
+  "claudeCode.focusView": true,
+  "claudeCode.environmentVariables": [
+    { "name": "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC", "value": "1" }
+  ],
+
+  // Cursor
+  // markdown と plaintext で Cursor Tab を有効化
+  "cursor.cpp.disabledLanguages": [], // Cursor
+  "cursor.general.emailPrivacyEnabled": true, // Cursor
+  "cursor.composer.shouldChimeAfterChatFinishes": true, // Cursor
+  "cursor.composer.usageSummaryDisplay": "always", // Cursor
+  "workbench.activityBar.orientation": "vertical", // Cursor
 
   // 以下新規
   "files.autoSave": "off"
