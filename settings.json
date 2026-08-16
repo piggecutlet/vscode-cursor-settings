@@ -1,6 +1,8 @@
 {
   // ※ defaultSettings.json 順に並べる
 
+  // Ctrl + Shift + P → Configure Display Language
+
   // プライバシー
   "crashReporting.enabled": "off", // Cursor
   "telemetry.telemetryLevel": "off", // VSCode
