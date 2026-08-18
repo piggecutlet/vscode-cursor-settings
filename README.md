@@ -33,6 +33,8 @@ mklink "%APPDATA%\Cursor\User\keybindings.json" "%USERPROFILE%\main\git\vscode-c
 - macOS (bash / zsh)
 
 ```
+curl -fLo "$HOME/Library/Application Support/Code/User/keybindings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/keybindings.json"
+
 curl -fLo "$HOME/Library/Application Support/Cursor/User/keybindings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/keybindings.json"
 ```
 
@@ -54,6 +56,8 @@ mklink "%APPDATA%\Cursor\User\settings.json" "%USERPROFILE%\main\git\vscode-curs
 - macOS (bash / zsh)
 
 ```
+curl -fLo "$HOME/Library/Application Support/Code/User/settings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/settings.json"
+
 curl -fLo "$HOME/Library/Application Support/Cursor/User/settings.json" "https://raw.githubusercontent.com/piggecutlet/vscode-cursor-settings/refs/heads/main/settings.json"
 ```
 
