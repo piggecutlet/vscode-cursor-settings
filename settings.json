@@ -145,6 +145,8 @@
   // 新デザインのモーダルで開くのを防ぐ
   "workbench.editor.useModal": "off",
 
+  "editor.lightbulb.enabled": "off",
+
   // Claude
   "claudeCode.focusView": true,
   "claudeCode.environmentVariables": [
