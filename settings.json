@@ -64,7 +64,8 @@
     "*.dat": "hexEditor.hexedit",
     "*.data": "hexEditor.hexedit",
     "*.plist": "hexEditor.hexedit",
-    "*.so": "hexEditor.hexedit"
+    "*.so": "hexEditor.hexedit",
+    "*.md": "vscode.markdown.editor"
   },
 
   "files.associations": {
