@@ -147,6 +147,7 @@
   "workbench.editor.useModal": "off",
 
   "editor.lightbulb.enabled": "off",
+  "terminal.integrated.initialHint": false,
 
   // Claude
   "claudeCode.focusView": true,
