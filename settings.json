@@ -65,7 +65,10 @@
     "*.data": "hexEditor.hexedit",
     "*.plist": "hexEditor.hexedit",
     "*.so": "hexEditor.hexedit",
-    "*.md": "vscode.markdown.editor"
+
+    "libfrida-gadget.config.so": "default"
+
+    // "*.md": "vscode.markdown.editor"
   },
 
   "files.associations": {
@@ -74,7 +77,8 @@
     "knip.jsonc": "jsonc",
     ".gitmessage.txt": "git-commit",
     "*.kts": "java",
-    "*.ghostty": "shell"
+    "*.ghostty": "shell",
+    "libfrida-gadget.config.so": "json"
   },
 
   // VSCodeに寄せる
