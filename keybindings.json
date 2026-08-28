@@ -30,5 +30,19 @@
       "text": "\u001b\r"
     },
     "when": "terminalFocus"
+  },
+
+  // マークダウン エディター
+  {
+    "key": "ctrl+shift+v",
+    "command": "reopenActiveEditorWith",
+    "args": "vscode.markdown.editor",
+    "when": "resourceLangId == markdown && activeCustomEditorId != 'vscode.markdown.editor'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "reopenActiveEditorWith",
+    "args": "default",
+    "when": "activeCustomEditorId == 'vscode.markdown.editor'"
   }
 ]
