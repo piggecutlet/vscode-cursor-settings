@@ -48,12 +48,15 @@
 
   // Git
   // "git.autoRepositoryDetection": "subFolders",
+  // 同期時のダイアログを無効化
+  "git.confirmSync": false,
   // 空コミット時に自動でステージング
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
   "git.ignoreLimitWarning": true,
   // GitLensの代わり
   "git.blame.editorDecoration.enabled": true,
+
   // .gitディレクトリを表示
   "files.exclude": {
     "**/.git": false
