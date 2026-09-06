@@ -33,6 +33,7 @@
   },
 
   // マークダウン エディター
+  // Mac では cmd+c を指定
   {
     "key": "ctrl+shift+v",
     "command": "reopenActiveEditorWith",
