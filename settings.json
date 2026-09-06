@@ -48,6 +48,8 @@
 
   // Git
   // "git.autoRepositoryDetection": "subFolders",
+  // 空コミット時に自動でステージング
+  "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
   "git.ignoreLimitWarning": true,
   // GitLensの代わり
@@ -63,12 +65,10 @@
     "*.bytes": "hexEditor.hexedit",
     "*.dat": "hexEditor.hexedit",
     "*.data": "hexEditor.hexedit",
+    "*.md": "vscode.markdown.editor",
     "*.plist": "hexEditor.hexedit",
     "*.so": "hexEditor.hexedit",
-
-    "libfrida-gadget.config.so": "default"
-
-    // "*.md": "vscode.markdown.editor"
+    "libfrida-gadget.*.so": "default"
   },
 
   "files.associations": {
@@ -78,6 +78,7 @@
     ".gitmessage.txt": "git-commit",
     "*.kts": "java",
     "*.ghostty": "shell",
+    "hosts": "shellscript",
     "libfrida-gadget.config.so": "json"
   },
 
@@ -152,9 +153,12 @@
 
   "editor.lightbulb.enabled": "off",
   "terminal.integrated.initialHint": false,
+  "explorer.confirmDragAndDrop": false,
 
   // Claude
   "claudeCode.focusView": true,
+  // CTRL + V を有効化
+  "claudeCode.useTerminal": true,
   "claudeCode.environmentVariables": [
     { "name": "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC", "value": "1" }
   ],
